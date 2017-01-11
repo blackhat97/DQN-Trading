@@ -20,15 +20,15 @@ After meet those requirements in above, you can begin the training both algorith
 
 Train Deep Q-learning:
 
-    $ python market_dqn.py <list filename> [model filename]
+    $ python dqn.py <list filename> [model filename]
 
 Train Policy Gradient:
 
-	$ python market_pg.py <list filename> [model filename]
+	$ python pg.py <list filename> [model filename]
 
 For example, you can do like this:
 
-	$ python market_pg.py ./kospi_10.csv pg.h5
+	$ python pg.py ./kospi_10.csv pg.h5
 
 Aware that the provided neural network architecture in this repo is too small to learn.
 So, it may under-fitting if you try to learn every stock data.
